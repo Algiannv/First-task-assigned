@@ -1,9 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+* {
+  box-sizing: border-box;
+}
+
 .container {
   max-width: 970px;
   margin: 0 auto;
 }
+
 .title {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -13,6 +18,7 @@
   letter-spacing: -2px;
   color: #232536;
 }
+
 .text {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -22,9 +28,11 @@
   /* Medium grey */
   color: #6d6e76;
 }
+
 ul {
   padding-left: 20px;
 }
+
 li {
   font-family: "Poppins";
   font-style: normal;
@@ -33,4 +41,44 @@ li {
   line-height: 32px;
   color: #161722;
   opacity: 0.78;
+}
+
+.category-title {
+  font-family: 'Poppins';
+  font-size: 25px;
+  margin-left: 50px;
+  margin-bottom: 35px;
+}
+
+.category-card {
+  width: 255px;
+  height: 266px;
+  background-color: #F4F0F8;
+  border-radius: 10px;
+  padding-top: 9px;
+}
+
+.category-card img {
+  display: block;
+  margin: 0px auto;
+}
+
+.category-card h3 {
+  font-family: 'Poppins';
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.category-card p {
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.category-list {
+  display: flex;
+  gap: 53px;
+  margin-left: 53px;
 }
