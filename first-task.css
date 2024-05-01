@@ -80,7 +80,67 @@ li {
 .category-list {
   display: flex;
   gap: 53px;
-  margin-left: 53px;
+  margin-left: 50px;
+}
+
+.background {
+margin: auto 10px;
+padding-right: 20px;
+}
+
+.boxfont {
+  width: 714px;
+  height: 298px;
+  margin-left: 50px;
+  margin-top: -600px;
+}
+.headfont1 {
+  font-family: 'Poppins';
+  font-weight: bold;
+  color:#FFFFFF;
+  font-size: 70px;
+  margin-bottom: -60px;
+}
+.headfont2 {
+  font-family: 'Poppins';
+  font-weight: bold;
+  color:#FFFFFF;
+  font-size: 70px;
+  margin-bottom: -60px;
+
+}.headfont3 {
+  font-family: 'Poppins';
+  font-weight: bold;
+  color:#FFFFFF;
+  font-size: 70px;
+  margin-bottom: -60px;
+}
+.boxdetails {
+  width: 600px;
+  height: 100px;
+}
+.details {
+  font-family: 'Poppins';
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-right: -70px;
+  margin-left: 50px;
+}
+.subscribe {
+  background-color: #FF5959;
+  border: none;
+  width: 186px;
+  height: 60.05px;
+  color: #FFFFFF;
+  border-radius: 12px;
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-top: 70px;
+  background-image: url(img/Vector.png);
+  background-repeat: no-repeat;
+  background-position: 147px;
 }
 
 .background {
