@@ -80,5 +80,62 @@ li {
 .category-list {
   display: flex;
   gap: 53px;
+  justify-content: center;
+}
+
+.background {
+  margin: 0px auto;
+  padding-right: 20px;
+  margin-top: 20px;
+  background-image: url(img/Rectangle\ 3.png);
+  height: 594px;
+  width: 1280px;
+  padding-top: 50px;
+}
+
+.boxfont {
+  width: 714px;
+  height: 298px;
   margin-left: 50px;
+}
+
+.headfont {
+  font-family: 'Poppins';
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 70px;
+  margin-bottom: -5px;
+  line-height: 89px;
+  margin-right: 230px;
+  margin-top: 0px;
+}
+
+.details {
+  font-family: 'Poppins';
+  width: 600px;
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-right: -70px;
+  margin-left: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.subscribe {
+  background-color: #FF5959;
+  border: none;
+  width: 186px;
+  height: 60.05px;
+  color: #FFFFFF;
+  border-radius: 12px;
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-top: 22px;
+
+}
+
+.subscribe img {
+  vertical-align: middle;
 }
