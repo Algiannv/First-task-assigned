@@ -215,38 +215,27 @@ li {
   color: #FFFFFF;
   display: flex;
   justify-content: space-between;
-  padding: 15px 15px;
+  padding: 15px 50px;
   align-items: center;
 }
-.header-home {
+.header-info > a {
   font-family: 'Poppins';
+  font-size: 16px;
+}
+.header-info > a.active {
   font-weight: bold;
-  font-size: 16px;
   line-height: 24px;
-}
-.header-blogs{
-  font-family: 'Poppins';
-  font-size: 16px;
-}
-.header-about {
-  font-family: 'Poppins';
-  font-size: 16px;
-}
-.header-contact{
-  font-family: 'Poppins';
-  font-size: 16px;
 }
 .header-button {
   background-color: #FFFFFF;
   color: #232536;
-  width: 152px;
-  height: 50px;
+  padding: 15px 40px;
   border-radius: 5px;
   font-family: 'Poppins';
   font-weight: bold;
   font-size: 14px;
   border: none; 
-  margin-right: 50px;
+
 }
 
 
@@ -259,11 +248,79 @@ li {
   align-items: center;
   display: flex;
   gap: 16px;
-  margin-left: 50px;
+
 }
 
 .header-info {
   margin-left: 526px;
   display: flex;
   gap: 42px;
+}
+
+.support-home {
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+.support-blogs{
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: bold;
+
+}
+.support-about {
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: bold;
+
+}
+.support-contact{
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: bold;
+
+}
+.support-privacy {
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: bold;
+
+}
+.support {
+  background-color: #232536;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+.html, body {
+  padding: 0;
+  margin: 0;
+}
+.support-logo {
+  align-items: center;
+  display: flex;
+  gap: 16px;
+  margin-left: 50px;
+}
+.support-text {
+  font-size: 16px;
+  font-family: 'Inter';
+}
+.support-info {
+  margin-left: 526px;
+  margin-right: 43px;
+  display: flex;
+  gap: 42px;
+}
+.support-form {
+  background-color: #2A2B39;
+
+}
+.support-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto 0;
 }
